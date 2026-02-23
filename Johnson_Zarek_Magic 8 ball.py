@@ -16,7 +16,7 @@ answers = [
     'Most likely',
     "Don't count on it",
     "Very doubtful",
-    "My reply is no"
+    "My reply is no",
     "Cannot predict now",
     
 ]
@@ -51,5 +51,6 @@ answer_label.pack(pady=20)
 
 # Allow pressing Enter to ask
 window.bind('<Return>', lambda event: ask_question())
+
 
 window.mainloop()
